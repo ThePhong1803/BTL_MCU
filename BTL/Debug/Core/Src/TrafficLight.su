@@ -1,0 +1,13 @@
+../Core/Src/TrafficLight.c:26:6:setGreenLed1	8	static
+../Core/Src/TrafficLight.c:37:6:setYellowLed1	8	static
+../Core/Src/TrafficLight.c:48:6:setRedLed1	8	static
+../Core/Src/TrafficLight.c:59:6:setGreenLed2	8	static
+../Core/Src/TrafficLight.c:70:6:setYellowLed2	8	static
+../Core/Src/TrafficLight.c:81:6:setRedLed2	8	static
+../Core/Src/TrafficLight.c:92:6:clearAllLed	8	static
+../Core/Src/TrafficLight.c:99:6:toggleRed1	8	static
+../Core/Src/TrafficLight.c:107:6:toggleYellow1	8	static
+../Core/Src/TrafficLight.c:115:6:toggleGreen1	8	static
+../Core/Src/TrafficLight.c:124:6:toggleRed2	8	static
+../Core/Src/TrafficLight.c:132:6:toggleYellow2	8	static
+../Core/Src/TrafficLight.c:140:6:toggleGreen2	8	static
