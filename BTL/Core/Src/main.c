@@ -123,6 +123,7 @@ int main(void)
 		fsm1_automatic_run();
 		fsm2_automatic_run();
 		fsm_modify_timer_control();
+    fsm_pedestrian();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

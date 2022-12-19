@@ -24,6 +24,7 @@ void fsm1_automatic_run() {
 		if (isTimer3Expired()) {
 			setTimer3(100);
 			timeCountdown1--;
+			writeMess(timeCountdown1);
 		}
 		if (isTimer1Expired() == 1) {
 			setTimer1(green_duration1);
@@ -50,6 +51,7 @@ void fsm1_automatic_run() {
 		if (isTimer3Expired()) {
 			setTimer3(100);
 			timeCountdown1--;
+			writeMess(timeCountdown1);
 		}
 		if (isTimer1Expired() == 1) {
 			setTimer1(yellow_duration1);
@@ -77,6 +79,7 @@ void fsm1_automatic_run() {
 		if (isTimer3Expired()) {
 			setTimer3(100);
 			timeCountdown1--;
+			writeMess(timeCountdown1);
 		}
 		if (isTimer1Expired() == 1) {
 			setTimer1(red_duration1);

@@ -37,13 +37,13 @@ int status4 = PEDESTRIAN_OFF;
 int state = 0;
 int state2 = 0;
 int counter_toggle = 0;
-//>>>>
-//void writeMess(int time){
-//	char str[32];
-//	sprintf((char*) str, "!7SEG:%02d#\r\n", time);
-//	HAL_UART_Transmit(&huart2, (uint8_t *)str, strlen(str), 10);
-//}
-//void writeMessage(char * str){
-//	HAL_UART_Transmit(&huart2, (uint8_t *)str, strlen(str), 10);
-//}
-//>>>>
+
+void writeMess(int time){
+	char str[32];
+	sprintf((char*) str, "!7SEG:%02d#\r\n", time);
+	HAL_UART_Transmit(&huart2, (uint8_t *)str, strlen(str), 10);
+}
+void writeMessage(char * str){
+	HAL_UART_Transmit(&huart2, (uint8_t *)str, strlen(str), 10);
+}
+
