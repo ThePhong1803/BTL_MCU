@@ -14,6 +14,7 @@ void fsm1_automatic_run() {
 		setRedLed1();
 		status1 = AUTO_RED;
 		setTimer1(red_duration1);
+		timeCountdown1 = red_duration1 / 100;
 		setTimer3(100);
 		break;
 
