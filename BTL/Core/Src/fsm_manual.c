@@ -33,6 +33,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input + 1) % 100; //max value is 99
 			if (time_input == 0)
 				time_input = 1; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//decrease time
@@ -40,6 +41,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input - 1);
 			if (time_input == 0)
 				time_input = 99; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//check if user want to change mode
@@ -75,6 +77,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input + 1) % 100; //99 is the max value
 			if (time_input == 0)
 				time_input = 1; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//decrease time
@@ -82,6 +85,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input - 1);
 			if (time_input == 0)
 				time_input = 99; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//check if user want to change mode
@@ -117,6 +121,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input + 1) % 100; //99 is the max value
 			if (time_input == 0)
 				time_input = 1; //1 is invalid value
+			writeMess(time_input);
 		}
 
 		//decrease time
@@ -124,6 +129,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input - 1);
 			if (time_input == 0)
 				time_input = 99; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//check if user want to change mode
@@ -159,6 +165,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input + 1) % 100; //99 is the max value
 			if (time_input == 0)
 				time_input = 1; //1 is invalid value
+			writeMess(time_input);
 		}
 
 		//decrease time
@@ -166,6 +173,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input - 1);
 			if (time_input == 0)
 				time_input = 99; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//check if user want to change mode
@@ -202,6 +210,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input + 1) % 100; //99 is the max value
 			if (time_input == 0)
 				time_input = 1; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//decrease time
@@ -209,6 +218,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input - 1);
 			if (time_input == 0)
 				time_input = 99; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//check if user want to change mode
@@ -248,6 +258,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input + 1) % 100; //99 is the max value
 			if (time_input == 0)
 				time_input = 1; //1 is invalid value
+			writeMess(time_input);
 		}
 
 		//decrease time
@@ -255,6 +266,7 @@ void fsm_modify_timer_control() {
 			time_input = (time_input - 1);
 			if (time_input == 0)
 				time_input = 99; //0 is invalid value
+			writeMess(time_input);
 		}
 
 		//check if user want to change mode
